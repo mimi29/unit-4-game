@@ -1,0 +1,57 @@
+.crystal-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+  }
+
+#image1 {
+  background: url('../../assets/images/yellow-crystal.jpg');
+  width: 200px;
+  height:200px;
+}
+
+p {
+  line-height: 30px;
+}
+
+button {
+  margin: 10px;
+  background-color: transparent;
+  padding: 0;
+}
+
+.score-board {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: darkgreen;
+  color: snow;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.score {
+  border-style:solid;
+}
+
+body {
+
+background: url("../images/ball-pattern.jpg") top left;
+
+background-attachment: fixed;
+
+background-position: top left;
+
+-webkit-background-size: auto, cover;
+
+-moz-background-size: auto, cover;
+
+-o-background-size: auto, cover;
+
+background-size: auto, cover;
+
+font: 12px Arial, Tahoma, Georgia, "Times New Roman", Times, serif;
+
+color: #000;
+} 
