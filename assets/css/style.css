@@ -10,6 +10,10 @@
   height:200px;
 }
 
+.jumbotron{
+  color: darkkhaki !important;
+}
+
 p {
   line-height: 30px;
 }
@@ -21,7 +25,18 @@ button {
 }
 
 .score-board {
+  margin: auto;
   text-align: center;
+  border-radius: 20px;
+  background: lightseagreen;
+  width:25%;
+}
+
+.win-score {
+  padding-left: 30px;
+  margin: auto;
+  width: 50%;
+  column-gap: 1em;
 }
 
 .jumbotron {
@@ -32,7 +47,10 @@ button {
 }
 
 .score {
-  border-style:solid;
+  margin: auto;
+  border-radius: 10px;
+  background: lightyellow;
+  color: black;
 }
 
 body {
